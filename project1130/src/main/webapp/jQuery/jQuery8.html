@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	div, td {
+		margin:5px; padding:10px;
+		border:3px solid black;
+		width: 300px; height: 100px;
+	}
+</style>	
+<meta charset="UTF-8"/>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+    $(document).ready(function(){
+		$('h1').click(function() {
+			$(this).html(function(index, html){
+				//alert(index + html);
+				return html + '@';
+			});
+		});
+		setInterval(function(){
+			$('h1').last().trigger('click');			
+		}, 2000);
+		
+  	});
+</script>
+<title>Insert title here</title>
+</head>
+<body>
+ 	<h1>Start:</h1> <h1>Start:</h1>
+</body>
+</html>

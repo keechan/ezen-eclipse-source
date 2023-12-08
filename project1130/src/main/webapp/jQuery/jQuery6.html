@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8"/>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+    $(document).ready(function(){
+    
+     setInterval(function() {
+          $('div').append($('#h1').clone());
+     }, 2000);
+  });
+</script>
+</head>
+
+<body>
+	<h1 id="h1">복사하기</h1>
+	<hr/>
+		<div></div>
+	<hr/>
+</body>
+</html>

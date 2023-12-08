@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+	$(function(){
+		h1 = 'header1';
+		h2 = 'header2';
+		h3 = 'header3';
+		$('<h3></h3>').html(h1).insertAfter('div');
+		$('<h3></h3>').html(h2).insertAfter('div');
+		$('<h3></h3>').html(h3).insertBefore('div');
+		$('div').html(h1).after('<h3></h3>');
+
+		//$('div').append(h1);
+		//$('div').prepend(h2, h3);
+		//div 닫는 태그 이후에 h1 추가
+		//$('div').after(h1);
+		//div 시작 태그 전에 h1 추가
+		//$('div').before(h1);
+	})
+</script>
+<title>Insert title here</title>
+</head>
+<body>
+	top
+	<div>
+
+	</div>
+	bottom
+</body>
+</html>
