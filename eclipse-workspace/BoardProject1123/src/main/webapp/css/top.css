@@ -1,0 +1,44 @@
+@charset "UTF-8";
+header{
+ background:#0000ff;
+ height:90px;
+ line-height:90px;
+ color : #ffffff;
+ font-size:30px;
+ text-align:center;
+}
+
+nav{
+ background:#00aaff;
+ height:30px;
+ line-height:30px;
+ color : #ffffff;
+ font-size:16px;
+ text-align:left;
+}
+
+section{
+ background:#eaeaea; 
+ min-height:500px; 
+ line-height:35px; 
+ font-size:14px; 
+}
+
+footer{
+ background:#0000ff; 
+ height:40px; 
+ line-height:40px; 
+ color:#ffffff;   
+ font-size:14px;  
+ text-align:center; 
+}
+
+section a{
+ color : #000000;
+}
+
+nav a{
+ color : #ffffff;
+ text-decoration:none;
+}
+
